@@ -1,0 +1,27 @@
+thead tr,
+tr {
+	background-color: #cecece;
+	padding: 20px;
+}
+
+tr th {
+	padding: 10px 20px;
+}
+
+tbody tr:nth-child(odd) {
+	background-color: white;
+}
+
+.checking-box {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 20px;
+}
+
+.paginations {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+	align-items: center;
+}
